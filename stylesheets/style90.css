@@ -1,0 +1,48 @@
+body{
+	background-color: black;
+	color: #1EF827;
+}
+
+footer{
+	text-align: center;
+}
+
+.grid-container {
+	display: inline-grid;
+    grid-template-columns: auto;
+
+}
+
+.grid-item {
+    border: 3px solid #1EF827;
+    padding: 10px;
+}
+
+.rate {
+	border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+}
+
+.button{
+	text-align: center;
+	border-bottom-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+}
+
+p{
+	display: inline-block;
+	background-color: black;
+	color: #1EF827;
+}
+
+.main{
+	color: yellow;
+}
+
+.grid-container2 {
+	display: inline-grid;
+    grid-template-columns: fr;
+    grid-template-rows: fr;
+    padding: 10px;
+}
+
